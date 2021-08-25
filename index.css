@@ -1,0 +1,109 @@
+.div1{
+    background-color: darkcyan;
+    width:100px;
+    height: 100px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-top:20px;
+    animation-name:image1_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    }
+
+@keyframes image1_animation {
+    50%{
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+
+.div2{
+    background-color: grey;
+    width:100px;
+    height: 100px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-top:50px;
+    animation-name:image2_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+@keyframes image2_animation {
+    50%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg) ;
+    }
+}
+.div3{
+
+    background-color: darkcyan;
+    width:100px;
+    height: 100px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-top:50px;
+    animation-name:image_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+  }
+  @keyframes image_animation {
+      100%{
+          transform: rotate(180deg);
+      }
+  }
+
+
+
+    .div4{
+    background-color: darkcyan;
+    width:100px;
+    height: 100px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-top:50px;
+    animation-name:image3_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    }
+
+    @keyframes image3_animation {
+        50%{
+            transform: rotateX(-100deg);
+        }
+       100%{
+          transform: rotateX(100deg);
+       } 
+    }
+    .div5{
+    background-color: maroon;
+    width:100px;
+    height: 100px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-top:50px;
+    animation-name:image4_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    }
+    @keyframes image4_animation {
+        50%{
+           transform: rotateY(100deg);
+        }
+        100%{
+            transform: rotateY(100deg);
+        }
+    }

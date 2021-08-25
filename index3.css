@@ -1,0 +1,92 @@
+.div2{
+    margin-bottom:0px;
+    z-index:1;
+    position:absolute;
+    margin-top: 450px ;
+    animation-name:build_animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-play-state: running;
+    animation-timing-function: linear reverse;
+    
+   }
+.div1{
+  position: absolute;
+  height:50px;
+}
+.div7{
+    position: absolute;
+    }
+.div3{
+    z-index:1;
+    margin-top: 700px;
+    position: absolute;
+    animation-name:road_animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-play-state: running;
+    animation-timing-function: linear reverse;
+    
+}
+
+@keyframes road_animation {
+    50%{
+        right: -2800px;
+    }
+    75%{
+        right: -2100px;
+    }
+    100%{
+        right:-1500px;
+    }
+}
+.div4{
+    z-index:1;
+    margin-top: 651px;
+    margin-left:200px;
+    position:absolute;
+    animation-name:run_animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-play-state: running;
+    animation-timing-function:linear;
+}
+.div5{
+    z-index:1;
+    margin-top: 751px;
+    margin-left: 237px;
+    position:absolute;
+    animation-name:wheel_animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+.div6{
+    z-index:1;
+    margin-top: 751px;
+    margin-left: 547px;
+    position:absolute;
+    animation-name:wheel_animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes build_animation {
+    50%{
+        left: 0px;
+    }
+    75% {
+        left: 100px;
+    }
+    100%{
+        left:170px;
+    }
+}
